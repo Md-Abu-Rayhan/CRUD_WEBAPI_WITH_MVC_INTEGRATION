@@ -1,5 +1,3 @@
-I'll create a comprehensive README.md file for your CRUD Web API with MVC Integration project. Based on the code snippets provided, I can see this is a .NET project with an Employee API and MVC application.
-
 ```markdown:e:\Github Repo\CRUD_WEBAPI_WITH_MVC_INTEGRATION\CRUD_WEBAPI_WITH_MVC_INTEGRATION\README.md
 # CRUD Web API with MVC Integration
 
@@ -18,6 +16,18 @@ A .NET application demonstrating how to build a CRUD API with SQL Server backend
 - [.NET 9.0 SDK]
 - [SQL Server]
 - [Visual Studio 2022] or [Visual Studio Code]
+
+
+## 📚 Dependencies
+
+### EmployeeAPI
+- Microsoft.AspNetCore.OpenApi
+- Microsoft.Data.SqlClient
+- Swashbuckle.AspNetCore
+
+### EmployeeMVCApp
+- Microsoft.AspNetCore.Mvc
+- System.Net.Http.Json
 
 
 
@@ -105,16 +115,7 @@ You can test the API using:
 - Postman or any other API testing tool
 - The included MVC application
 
-## 📚 Dependencies
 
-### EmployeeAPI
-- Microsoft.AspNetCore.OpenApi
-- Microsoft.Data.SqlClient
-- Swashbuckle.AspNetCore
-
-### EmployeeMVCApp
-- Microsoft.AspNetCore.Mvc
-- System.Net.Http.Json
 
 
 
