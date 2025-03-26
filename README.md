@@ -15,31 +15,11 @@ A .NET application demonstrating how to build a CRUD API with SQL Server backend
 
 ## 📋 Prerequisites
 
-- [.NET 9.0 SDK](https://dotnet.microsoft.com/download)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (Express or higher)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET 9.0 SDK]
+- [SQL Server]
+- [Visual Studio 2022] or [Visual Studio Code]
 
-## 🗂️ Project Structure
 
-```
-CRUD_WEBAPI_WITH_MVC_INTEGRATION/
-├── EmployeeAPI/                  # Web API Project
-│   ├── Controllers/              # API endpoints
-│   ├── Data/                     # Data access layer
-│   ├── Database Backup/          # SQL Server database scripts
-│   ├── Models/                   # Data models
-│   ├── Repositories/             # Repository pattern implementation
-│   ├── Program.cs                # Application entry point and configuration
-│   └── appsettings.json          # Application settings
-│
-└── EmployeeMVCApp/               # MVC Frontend Project
-    ├── Controllers/              # MVC controllers
-    ├── Models/                   # View models
-    ├── Services/                 # Service layer for API communication
-    ├── Views/                    # Razor views
-    ├── Program.cs                # MVC application entry point
-    └── appsettings.json          # MVC application settings
-```
 
 ## 🛠️ Setup and Installation
 
@@ -136,12 +116,5 @@ You can test the API using:
 - Microsoft.AspNetCore.Mvc
 - System.Net.Http.Json
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 
